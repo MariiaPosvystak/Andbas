@@ -231,7 +231,7 @@ add DepartmentId
 int null
 
 
---?
+-- Lisage tabelisse Employees veerg MiddleName.
 alter table Employees
 add MiddleName nvarchar(30)
 
