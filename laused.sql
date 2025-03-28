@@ -167,6 +167,7 @@ Location nvarchar(50),
 DepartmentHead nvarchar(50)
 )
 
+--- loome uued tabelid (tabeli Employees loomine)
 create table Employees
 (
 Id int primary key,
