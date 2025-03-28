@@ -191,6 +191,7 @@ values (4, 'Other Deparment', 'Sydney', 'Cindrella')
 
 select * from Department
 
+--- andmete sisestamine tabelisse
 insert into Employees (Id, Name, Gender, Salary, DepartmentId)
 values (1, 'Tom', 'Male', 4000, 1)
 insert into Employees (Id, Name, Gender, Salary, DepartmentId)
