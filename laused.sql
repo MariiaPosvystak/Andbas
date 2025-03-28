@@ -235,6 +235,7 @@ int null
 alter table Employees
 add MiddleName nvarchar(30)
 
+-- Lisage tabelisse Employees veerg LastName.
 alter table Employees
 add LastName nvarchar(30)
 
