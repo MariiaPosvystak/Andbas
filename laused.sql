@@ -167,6 +167,7 @@ Location nvarchar(50),
 DepartmentHead nvarchar(50)
 )
 
+-- Tabeli Employees loomine
 create table Employees
 (
 Id int primary key,
