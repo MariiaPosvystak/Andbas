@@ -63,6 +63,7 @@ drop constraint tblPerson_GenderId_FK
 -- ?
 insert into Gender (Id, Gender)
 values (3, 'Unknown')
+  
 -- lisame võõrvõtme uuesti
 alter table Person
 add constraint DF_Person_GenderId
@@ -75,7 +76,7 @@ select * from Gender
 insert into Person (Id, Name, Email)
 values (8, 'Test', 'Test')
 
----?
+--- Age veeru lisamine
 alter table Person
 add Age nvarchar(10)
 
