@@ -221,7 +221,7 @@ select sum(cast(Salary as int)) from Employees
 ---?
 select min(cast(Salary as int)) from Employees
 
-
+-- Lisage tabelisse Employees veerg City.
 alter table Employees
 add City nvarchar(25)
 
