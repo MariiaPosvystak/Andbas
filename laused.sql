@@ -158,7 +158,7 @@ select max(cast(Age as int)) from Person
 select City, sum(cast(Age as int)) as TotalAge from Person group by City
 
 
---- loome uued tabelid
+-- Tabeli Department loomine
 create table Department
 (
 Id int primary key,
